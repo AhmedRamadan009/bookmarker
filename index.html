@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="my-5 ">
+        <h1 class="w-75  text-center my-5 mx-auto fw-bolder">BookMarker</h1>
+        <div class="container">
+<div class="row">
+            <label for="SiteNameInput">SiteName</label>
+            <input type="text" id="SiteNameInput" class="form-control my-3">
+            <label for="SiteUrlInput">SiteUrl</label>
+            <input type="text" id="SiteUrlInput" class="form-control my-3">
+           
+            <button onclick="AddSite()" class="btn btn-outline-success my-4">Add Site</button>
+        </div>
+        <table class="table ms-3 mt-4">
+            <thead>
+                <th>Index</th>
+                <th>SiteName</th>
+                <th>SiteUrl</th>
+                <th>Visite</th>
+                <th>Delete</th>
+            </thead>
+            <tbody id="t-row"> 
+           
+        </tbody>
+        </table>
+    </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+body{
+    background-image: url(../img/bookbg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1rem;
+    color: black;
+    
+
+}
